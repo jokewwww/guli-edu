@@ -1,7 +1,7 @@
 package com.joker.ucenter.service;
 
-import com.joker.ucenter.entity.UcenterMember;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.joker.ucenter.entity.UcenterMember;
 import com.joker.ucenter.entity.vo.RegistryVO;
 
 /**

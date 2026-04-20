@@ -1,11 +1,11 @@
 package com.joker.edu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.edu.client.VodClient;
 import com.joker.edu.entity.EduVideo;
 import com.joker.edu.mapper.EduVideoMapper;
 import com.joker.edu.service.EduVideoService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

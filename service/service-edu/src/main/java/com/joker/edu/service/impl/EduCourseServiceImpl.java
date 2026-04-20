@@ -2,9 +2,9 @@ package com.joker.edu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.edu.entity.EduCourse;
 import com.joker.edu.entity.EduCourseDescription;
-import com.joker.edu.entity.EduTeacher;
 import com.joker.edu.entity.frontvo.CourseQueryVo;
 import com.joker.edu.entity.frontvo.CourseWebVo;
 import com.joker.edu.entity.vo.CourseInfoForm;
@@ -13,7 +13,6 @@ import com.joker.edu.mapper.EduCourseMapper;
 import com.joker.edu.service.EduChapterService;
 import com.joker.edu.service.EduCourseDescriptionService;
 import com.joker.edu.service.EduCourseService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.edu.service.EduVideoService;
 import com.joker.servicebase.exception.GuliException;
 import org.apache.commons.lang3.StringUtils;

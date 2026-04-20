@@ -1,20 +1,17 @@
 package com.joker.edu.controller.front;
 
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.joker.commonutils.response.R;
 import com.joker.commonutils.response.orderVo.CourseWebVoOrder;
 import com.joker.commonutils.util.JwtUtils;
 import com.joker.edu.client.OrderClient;
 import com.joker.edu.entity.EduCourse;
-import com.joker.edu.entity.EduTeacher;
 import com.joker.edu.entity.frontvo.CourseQueryVo;
 import com.joker.edu.entity.frontvo.CourseWebVo;
 import com.joker.edu.entity.vo.ChapterVO;
 import com.joker.edu.service.EduChapterService;
 import com.joker.edu.service.EduCourseService;
-import com.joker.edu.service.EduTeacherService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;

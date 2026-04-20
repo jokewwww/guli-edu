@@ -1,6 +1,5 @@
 package com.joker.ucenter.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.google.gson.Gson;
 import com.joker.commonutils.util.JwtUtils;
 import com.joker.servicebase.exception.GuliException;

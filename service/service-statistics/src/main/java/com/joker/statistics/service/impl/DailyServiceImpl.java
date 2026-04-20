@@ -1,12 +1,12 @@
 package com.joker.statistics.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.commonutils.response.R;
 import com.joker.statistics.client.UcenterClient;
 import com.joker.statistics.entity.Daily;
 import com.joker.statistics.mapper.DailyMapper;
 import com.joker.statistics.service.DailyService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang3.RandomUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

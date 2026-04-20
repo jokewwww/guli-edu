@@ -1,11 +1,7 @@
 package com.joker.vodservice.controller;
 
-import com.aliyun.oss.ClientException;
 import com.aliyuncs.DefaultAcsClient;
-import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.vod.model.v20170321.DeleteVideoRequest;
-import com.aliyuncs.vod.model.v20170321.DeleteVideoResponse;
-
 import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthRequest;
 import com.aliyuncs.vod.model.v20170321.GetVideoPlayAuthResponse;
 import com.joker.commonutils.response.R;

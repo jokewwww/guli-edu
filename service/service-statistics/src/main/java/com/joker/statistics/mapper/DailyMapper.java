@@ -1,7 +1,7 @@
 package com.joker.statistics.mapper;
 
-import com.joker.statistics.entity.Daily;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.joker.statistics.entity.Daily;
 
 /**
  * <p>

@@ -1,7 +1,7 @@
 package com.joker.edu.mapper;
 
-import com.joker.edu.entity.EduChapter;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.joker.edu.entity.EduChapter;
 
 /**
  * <p>

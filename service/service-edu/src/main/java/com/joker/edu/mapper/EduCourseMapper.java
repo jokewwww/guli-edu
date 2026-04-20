@@ -1,7 +1,7 @@
 package com.joker.edu.mapper;
 
-import com.joker.edu.entity.EduCourse;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.joker.edu.entity.EduCourse;
 import com.joker.edu.entity.frontvo.CourseWebVo;
 import com.joker.edu.entity.vo.CoursePublishVo;
 import org.apache.ibatis.annotations.Param;

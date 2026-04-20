@@ -1,7 +1,7 @@
 package com.joker.ucenter.mapper;
 
-import com.joker.ucenter.entity.UcenterMember;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.joker.ucenter.entity.UcenterMember;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

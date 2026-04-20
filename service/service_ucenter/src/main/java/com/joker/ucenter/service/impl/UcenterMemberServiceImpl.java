@@ -1,13 +1,13 @@
 package com.joker.ucenter.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.commonutils.util.JwtUtils;
 import com.joker.servicebase.exception.GuliException;
 import com.joker.ucenter.entity.UcenterMember;
 import com.joker.ucenter.entity.vo.RegistryVO;
 import com.joker.ucenter.mapper.UcenterMemberMapper;
 import com.joker.ucenter.service.UcenterMemberService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.joker.ucenter.utils.MD5;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
