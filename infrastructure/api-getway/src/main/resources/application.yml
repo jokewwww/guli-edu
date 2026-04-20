@@ -1,0 +1,30 @@
+server:
+  port: 8222
+
+spring:
+  application:
+    name: service-gateway
+
+  cloud:
+    getway:
+      discovery:
+        locator:
+          enable: true
+      routes:
+        - id: service-acl #权限
+          uri: lb://service-acl
+          predicates:
+            - Path: /*/acl/** # 路径匹配
+
+        - id: server-edu
+          uri: lb://server-edu
+          predicates:
+            - Path: /eduservice/** # 路径匹配
+
+        - id: SERVICE-UCENTER
+          uri: lb://SERVICE-UCENTER
+          predicates:
+            - Path: /ucenter/** # 路径匹配
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

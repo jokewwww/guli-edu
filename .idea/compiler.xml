@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-edu" />
+        <module name="common_utils" />
+        <module name="spring_security" />
+        <module name="service-oss" />
+        <module name="service_cms" />
+        <module name="service-order" />
+        <module name="api-getway" />
+        <module name="service-vod" />
+        <module name="service_acl" />
+        <module name="service-statistics" />
+        <module name="service_base" />
+        <module name="service_sms" />
+        <module name="service_ucenter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-getway" options="-parameters" />
+      <module name="common_utils" options="-parameters" />
+      <module name="service-edu" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service-statistics" options="-parameters" />
+      <module name="service-vod" options="-parameters" />
+      <module name="service_acl" options="-parameters" />
+      <module name="service_base" options="-parameters" />
+      <module name="service_cms" options="-parameters" />
+      <module name="service_sms" options="-parameters" />
+      <module name="service_ucenter" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+    </option>
+  </component>
+</project>

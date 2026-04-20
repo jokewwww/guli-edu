@@ -1,0 +1,61 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: server-edu
+  profiles:
+    active: dev
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/hib?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+
+    hikari:
+      pool-name: DatebookHikariCP
+      connection-timeout: 30000
+      auto-commit: true
+      max-lifetime: 1800000
+      minimum-idle: 5
+      connection-test-query: SELECT 1
+      idle-timeout: 30000
+      maximum-pool-size: 6
+
+      #返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+feign:
+  hystrix:
+    :enabled: true
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.mapper
+
+  # 设置hystrix超时时间，默认1000ms
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+#七牛上传路径
+qiniu:
+  path: http://img.mayizijie.com/
+  qiniuAccess: WeK1tw6Q4U5WgcaDBOSWmMSX20BWs21B_rbj4zva
+  qiniuKey: YsGL1NbTG72EInNac6qgQlgLnvQv052eYrJ_V1FZ
+  bucketName: antbyte

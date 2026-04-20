@@ -1,0 +1,159 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"43a7a13a-5d58-438d-954d-3cdcd7ae25c5\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n    \"state\": \"OPEN\",\n    \"assignee\": \"jokewwww\"\n  }\n}]]></component>\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\n  \"selectedUrlAndAccountId\": {\n    \"url\": \"https://github.com/jokewwww/guli-edu.git\",\n    \"accountId\": \"ddb22e8b-be73-4340-ae9b-6d3cc9a2b0e7\"\n  }\n}]]></component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 6,\n  \"fromUser\": false\n}]]></component>\n  <component name=\"ProjectId\" id=\"3Cd91MMtgLK7jlrv80i0fICXnmO\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"run.configurations.included.in.services\": \"true\",\n    \"settings.editor.selected.configurable\": \"MavenSettings\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"Spring Boot.GetwayApplication\">\n    <configuration name=\"AclApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service_acl\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.acl.AclApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"CmsApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service_cms\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.edu.CmsApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"EduServiceApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service-edu\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.edu.EduServiceApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"GetwayApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"api-getway\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.getway.GetwayApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"OrderApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service-order\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.order.OrderApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"OssApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service-oss\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.oss.OssApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"SMSApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service_sms\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.sms.SMSApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"StatisticsApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service-statistics\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.statistics.StatisticsApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UcenterApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service_ucenter\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.ucenter.UcenterApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"VodApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\n      <module name=\"service-vod\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.joker.vodservice.VodApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"43a7a13a-5d58-438d-954d-3cdcd7ae25c5\" name=\"Changes\" comment=\"\" />\n      <created>1776704363246</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1776704363246</updated>\n      <workItem from=\"1776704364380\" duration=\"789000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bbe762bd8c168c785f5daf7b391355e123ed713a)
++++ b/.idea/workspace.xml	(date 1776707389798)
+@@ -1,13 +1,24 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="43a7a13a-5d58-438d-954d-3cdcd7ae25c5" name="Changes" comment="" />
++    <list default="true" id="43a7a13a-5d58-438d-954d-3cdcd7ae25c5" name="Changes" comment="上传项目">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+@@ -22,6 +33,15 @@
+     "accountId": "ddb22e8b-be73-4340-ae9b-6d3cc9a2b0e7"
+   }
+ }]]></component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="customMavenHome" value="$USER_HOME$/Downloads/java/maven-mvnd-2.0.0-rc-3-darwin-aarch64" />
++        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
++        <option name="userSettingsFile" value="$USER_HOME$/Downloads/java/maven/settings.xml" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
+   <component name="ProjectColorInfo"><![CDATA[{
+   "associatedIndex": 6,
+   "fromUser": false
+@@ -38,12 +58,23 @@
+     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+     "codeWithMe.voiceChat.enabledByDefault": "false",
+     "git-widget-placeholder": "main",
++    "git.auto.fetch.suggestion.counter": "1",
+     "kotlin-language-version-configured": "true",
+     "run.configurations.included.in.services": "true",
+     "settings.editor.selected.configurable": "MavenSettings",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RunDashboard">
++    <option name="configurationTypes">
++      <set>
++        <option value="KtorApplicationConfigurationType" />
++        <option value="MicronautRunConfigurationType" />
++        <option value="QuarkusRunConfigurationType" />
++        <option value="SpringBootApplicationConfigurationType" />
++      </set>
++    </option>
++  </component>
+   <component name="RunManager" selected="Spring Boot.GetwayApplication">
+     <configuration name="AclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+       <module name="service_acl" />
+@@ -123,11 +154,80 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1776704363246</updated>
+-      <workItem from="1776704364380" duration="789000" />
++      <workItem from="1776704364380" duration="2346000" />
++    </task>
++    <task id="LOCAL-00001" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776705935031</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1776705935031</updated>
++    </task>
++    <task id="LOCAL-00002" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706012336</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706012336</updated>
++    </task>
++    <task id="LOCAL-00003" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706171289</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706171289</updated>
++    </task>
++    <task id="LOCAL-00004" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706302884</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706302884</updated>
++    </task>
++    <task id="LOCAL-00005" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706596954</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706596954</updated>
++    </task>
++    <task id="LOCAL-00006" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706735157</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706735157</updated>
++    </task>
++    <task id="LOCAL-00007" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706806580</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706806580</updated>
+     </task>
++    <task id="LOCAL-00008" summary="上传项目">
++      <option name="closed" value="true" />
++      <created>1776706954223</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1776706954223</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="上传项目" />
++    <option name="LAST_COMMIT_MESSAGE" value="上传项目" />
++  </component>
+ </project>
+\ No newline at end of file
